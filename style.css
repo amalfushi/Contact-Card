@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px dotted darkred; */
+    /* font-size: 16px; */
+}
+
+#wrapper{
+    width: 980px;
+    /* height: 90px; */
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form{
+
+    display: inline-flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    /* align-content: f; */
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 10px 0px;
+}
+
+label{
+    width:100px;
+    margin-right: 40px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#description{
+    height: 100px;
+    margin-bottom: 20px;
+}
+.card{
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /* align-content: center; */
+    /* align-self: baseline; */
+}
+
+h1, h3, p{
+    display: inline-flex;
+    position: bottom;
+    justify-content: center;
+    margin-bottom:10px;
+}
+
+.back{
+    display:none;
+}
+
+#cards{
+    width:360px;
+    padding: 20px;
+    /* height: 200px; */
+    align-self: end;
+    /* align-content: end; */
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+}
+
+textarea{
+    width: 310px;
+    vertical-align: top;
+}
